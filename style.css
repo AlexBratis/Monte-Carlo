@@ -1,0 +1,187 @@
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.start{
+    float: left;
+    height: 60px;
+
+}
+.nav{
+    padding: 5px;
+}
+.nav li a:hover{
+    color: black;
+}
+
+.main{
+    height: 1000px;
+    width: 100%;
+    background: url(images/1main.jpg);
+    background-size: cover;
+}
+.col{
+    margin-top:300px
+
+}
+.second{
+    height: 800px;
+    width: 100%;
+    background-color:#f5f9fc;
+    display: flex;
+}
+.second img{
+    padding: 100px;
+}
+p{
+    padding: 200px;
+    text-align:justify;
+}
+.third{
+    height: 1000px;
+    width: 100%;
+    background: url(images/3main.jpg);
+    background-size: cover;
+}
+.trei {
+    
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    font-size: large;
+    color: #fafcfc;
+    text-align:center;
+}
+footer img{
+   
+    padding: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/*history page */
+
+.historymain{
+    height: 500px;
+    width: 100%;;
+    display: flex;
+    background-color: #70c8ff
+}
+.historymain img{
+    padding: 50px;
+ }
+.historysecond{
+    height: 500px;
+    width: 100%;
+    background-color:#f5f9fc;
+    display: flex;
+}
+.historysecond p{
+text-align: center;
+}
+.historythird p{
+    text-align: center;
+    }
+.historysecond img{
+   padding: 50px;
+}
+.historythird{
+    height: 500px;
+    width: 100%;;
+    display: flex;
+    background-color: #70c8ff
+}
+.historythird img{
+    padding: 50px;
+ }
+
+ .historyforth{
+    height: 500px;
+    width: 100%;
+    background-color:#f5f9fc;
+    display: flex;
+ }
+ .historyforth img{
+    padding: 50px;
+ }
+ .historyforth p{
+    text-align: center;
+     padding: 150px;
+ }
+
+ /* visit page */
+ .visitfirst{
+    height: 500px;
+    width: 100%;
+    background-color:#f5f9fc;
+    display: flex;
+}
+.visitfirst img{
+    padding: 50px;
+}
+.visitsecond{
+    height: 500px;
+    width: 100%;
+    background-color: #70c8ff;
+    display: flex;
+}
+.visitsecond img{
+    padding: 50px;
+}
+.visitthird{
+    height: 500px;
+    width: 100%;
+    background-color:#f5f9fc;
+    display: flex;
+}
+.visitthird img{
+    padding: 50px;
+}
+
+
+/*contact page */
+.coperta{
+    width: 100%;
+    height: 1000px;
+    background: url(images/8main.jpg);
+    background-size: cover;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #3a8ccf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #044c87;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .formular {
+    position: absolute;
+    border-radius: 20px;
+    background-color: #59acf0;
+    padding: 20px;
+    margin: 150px;
+    width:500px;
+  }
